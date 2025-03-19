@@ -12,8 +12,8 @@ Before you begin, please ensure you have the following installed on your system:
 Students can clone the repository using the following command:
 
 ```bash
-git clone https://github.com/yourusername/cs186A4-docker-setup.git
-cd cs186A4-docker-setup
+git clone https://github.com/sabaat/spark2.2.git
+cd spark2.2
 ```
 
 ### 2. Build the Docker Image
@@ -33,7 +33,7 @@ docker run -it my-spark-project
 This will start the container and drop you into a bash shell inside the Docker environment.
 
 ### Additional Information
-##Project Files:
+## Project Files:
 Your project files are located in the /opt/spark-homework-udf directory within the container.
-##Spark Usage:
+##S park Usage:
 Use the installed Spark instance by running commands like spark-shell inside the container.
