@@ -37,3 +37,10 @@ This will start the container and drop you into a bash shell inside the Docker e
 Your project files are located in the /opt/spark-homework-udf directory within the container.
 ## Spark Usage:
 Use the installed Spark instance by running commands like spark-shell inside the container.
+
+
+## Run the following command to get essential tools for spark
+```bash
+apt-get update && apt-get install build-essential
+```
+
